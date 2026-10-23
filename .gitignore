@@ -1,0 +1,23 @@
+# Entorno virtual
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Base de datos local (se crea sola al iniciar la app)
+costos.db
+costos.db-journal
+*.db-journal
+
+# Herramientas locales / de desarrollo
+.commandcode/
+.agents/
+
+# Secretos de Streamlit
+.streamlit/secrets.toml
+
+# Sistema operativo
+.DS_Store
